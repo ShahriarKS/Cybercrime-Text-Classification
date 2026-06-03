@@ -46,19 +46,21 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ---
 
-## 📊 Visualizations
+# 📊 Visualizations
+
+The following visualizations summarize dataset analysis, model performance, and evaluation results of the cybercrime text classification pipeline.
 
 ## 1. Exploratory Data Analysis & Dataset Insights
 
 ### Class Distribution
 
-![Binary Category](/images/binary category.png)
+![Binary Category](./images/binary%20category.png)
 
 ### Dataset Splits
 
-![Train Test Split](./images/test train split.png)
+![Train Test Split](./images/test%20train%20split.png)
 
-![Train and Train Dataset Split](/images/test and train dataset split.png)
+![Train and Test Dataset Split](./images/test%20and%20train%20dataset%20split.png)
 
 ---
 
@@ -66,29 +68,29 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ### Overall Model Comparison
 
-![Comparison of Machine Learning Models](/images/Comparison of Machine Learning Models.png)
+![Comparison of Machine Learning Models](./images/Comparison%20of%20Machine%20Learning%20Models.png)
 
 ### Confusion Matrix (Best Model — SVM)
 
-![Confusion Matrix](./images/confusion matrix.png)
+![Confusion Matrix](./images/confusion%20matrix.png)
 
 ### Individual Model Performance
 
 #### Linear SVM
 
-![Linear SVM Performance](./images/linear SVM performance.png)
+![Linear SVM Performance](./images/linear%20SVM%20performance.png)
 
 #### Logistic Regression
 
-![Logistic Regression Performance](./images/Logistic Regression Performance.png)
+![Logistic Regression Performance](./images/Logistic%20Regression%20Performance.png)
 
 #### Naive Bayes
 
-![Naive Bayes Performance](./images/naive bayes performance.png)
+![Naive Bayes Performance](./images/naive%20bayes%20performance.png)
 
 #### SGD Classifier
 
-![SGD Performance](./images/SGD performance.png)
+![SGD Performance](./images/SGD%20performance.png)
 
 ---
 
@@ -98,11 +100,11 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 #### Training vs Validation Loss
 
-![Training vs Validation Loss](./images/Training vs Validation Loss.png)
+![Training vs Validation Loss](./images/Training%20vs%20Validation%20Loss.png)
 
 #### Validation Accuracy & F1-Score
 
-![DistilBERT Validation Accuracy & F1-Score](./images/DistilBERT Validation Accuracy & F1-Score.png)
+![DistilBERT Validation Accuracy & F1-Score](./images/DistilBERT%20Validation%20Accuracy%20%26%20F1-Score.png)
 
 ---
 
@@ -110,11 +112,11 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 #### Training vs Validation Loss
 
-![RoBERTa Training vs Validation Loss](./images/RoBERTa-base Training vs Validation Loss.png)
+![RoBERTa-base Training vs Validation Loss](./images/RoBERTa-base%20Training%20vs%20Validation%20Loss.png)
 
 #### Validation Accuracy & F1-Score Trend
 
-![RoBERTa Validation Accuracy & F1-Score](./images/RoBERTa-base Validation Accuracy & F1-Score.png)
+![RoBERTa-base Validation Accuracy & F1-Score](./images/RoBERTa-base%20Validation%20Accuracy%20%26%20F1-Score.png)
 
 ---
 
@@ -122,7 +124,9 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ### Transformer Models Benchmark Analysis
 
-![Transformer Models Performance Comparison](./images/Transformer Models Performance Comparison.png)
+![Transformer Models Performance Comparison](./images/Transformer%20Models%20Performance%20Comparison.png)
+
+---
 
 ## 🛠️ How to Run
 
