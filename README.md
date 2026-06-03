@@ -44,39 +44,87 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ---
 
+---
+
 ## 📊 Visualizations
 
-The complete exploratory data analysis (EDA), training diagnostics, and model comparison graphs are structured below. All original plots can be found under the `images/` directory.
+The following visualizations summarize dataset analysis, model performance, and evaluation results of the cybercrime text classification pipeline.
 
 ### 1. Exploratory Data Analysis & Dataset Insights
-Graphs showcasing the initial dataset distribution and the balancing splits between training, validation, and testing setups.
-* **Class Distribution:** ![Binary Category](images/binary_category.png)
-* **Dataset Splits:** ![Test Train Split](images/test_train_split.png) | ![Test and Train Dataset Split](images/test_and_train_dataset_split.png)
+
+#### Class Distribution
+
+![Binary Category](images/binary_category.png)
+
+#### Dataset Splits
+
+![Train Test Split](images/test_train_split.png)
+
+![Train and Test Dataset Split](images/test_and_train_dataset_split.png)
+
+---
 
 ### 2. Baseline Machine Learning Performance
-Visual performance and error metrics of the traditional classical models.
-* **Overall ML Comparison:** ![Comparison of Machine Learning Models](images/Comparison_of_Machine_Learning_Models.png)
-* **Confusion Matrix:** ![Confusion Matrix](images/confusion_matrix.png)
-* **Individual Model Plots:** 
-  * ![Linear SVM Performance](images/Linear_SVM_Performance.png)
-  * ![Logistic Regression Performance](images/Logistic_Regression_Performance.png)
-  * ![Naive Bayes Performance](images/Naive_Bayes_Performance.png)
-  * ![SGD Performance](images/SGD_performance.png)
 
-### 3. Advanced Transformers Deep Learning Diagnostics
-Training logs tracking the optimization convergence, learning curves, and performance progress of the deep learning pipelines across validation cycles.
+#### Overall Model Comparison
 
-#### DistilBERT Engine Trends:
-* **Training vs Validation Loss:** ![Training vs Validation Loss](images/Training_vs_Validation_Loss.png)
-* **Validation Accuracy & F1-Score:** ![DistilBERT Validation Accuracy & F1-Score](images/DistilBERT_Validation_Accuracy_&_F1-Score.png)
+![Comparison of Machine Learning Models](images/Comparison_of_Machine_Learning_Models.png)
 
-#### RoBERTa-base Engine Trends:
-* **Training vs Validation Loss:** ![RoBERTa-base Training vs Validation Loss Across Epochs](images/RoBERTa-base_Training_vs_Validation_Loss_Across_Epochs.png)
-* **Validation Accuracy & F1-Score Trend:** ![RoBERTa-base Validation Accuracy & F1-Score Trend](images/RoBERTa-base_Validation_Accuracy_&_F1-Score_Trend.png)
+#### Confusion Matrix (Best Model — SVM)
 
-### 4. Ultimate Architecture Comparison 
-A direct visual confrontation mapping the overall efficiency, metric balancing, and precision improvements across both algorithmic eras.
-* ** Benchmark Analysis:** ![Transformer Models Performance Comparison](images/Transformer_Models_Performance_Comparison(di....png)
+![Confusion Matrix](images/confusion_matrix.png)
+
+#### Individual Model Performance
+
+##### Linear SVM
+
+![Linear SVM Performance](images/linear_svm_performance.png)
+
+##### Logistic Regression
+
+![Logistic Regression Performance](images/logistic_regression_performance.png)
+
+##### Naive Bayes
+
+![Naive Bayes Performance](images/naive_bayes_performance.png)
+
+##### SGD Classifier
+
+![SGD Performance](images/sgd_performance.png)
+
+---
+
+### 3. Advanced Transformer Deep Learning Diagnostics
+
+#### DistilBERT Training Trends
+
+**Training vs Validation Loss**
+
+![Training vs Validation Loss](images/Training_vs_Validation_Loss.png)
+
+**Validation Accuracy & F1-Score**
+
+![DistilBERT Validation Accuracy & F1-Score](images/DistilBERT_Validation_Accuracy_F1_Score.png)
+
+---
+
+#### RoBERTa-base Training Trends
+
+**Training vs Validation Loss**
+
+![RoBERTa Training vs Validation Loss](images/RoBERTa_Training_vs_Validation_Loss.png)
+
+**Validation Accuracy & F1-Score Trend**
+
+![RoBERTa Validation Accuracy & F1-Score](images/RoBERTa_Validation_Accuracy_F1_Score.png)
+
+---
+
+### 4. Ultimate Architecture Comparison
+
+#### Transformer Models Benchmark Analysis
+
+![Transformer Models Performance Comparison](images/Transformer_Models_Performance_Comparison.png)
 
 ---
 
