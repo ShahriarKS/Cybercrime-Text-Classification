@@ -122,7 +122,7 @@ The following visualizations summarize dataset analysis, model performance, and 
 
 ### Transformer Benchmark Analysis
 
-![Transformer Models Performance Comparison](./images/Transformer%20Models%20Performance%20Comparison%20(di...).png)
+![Transformer Models Performance Comparison](./images/Transformer%20Models%20Performance%20Comparison(distilBERT%20vs%20RoBERTA%20base).png)
 
 ---
 
