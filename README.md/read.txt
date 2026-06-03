@@ -1,0 +1,52 @@
+# Cybercrime Text Classification
+
+A machine learning project for classifying cybercrime complaints into:
+
+- Financial Fraud
+- Non-Financial Cybercrime
+
+## Dataset
+
+- Total Samples: 85,876
+- Source: Cybercrime Complaint Dataset
+
+## Preprocessing
+
+- Missing value removal
+- Duplicate removal
+- Text cleaning
+- TF-IDF Vectorization
+
+## Models Used
+
+- Naive Bayes
+- Logistic Regression
+- SGD Classifier
+- Linear SVM
+
+## Results
+
+| Model | Accuracy |
+|---------|---------|
+| Naive Bayes | 83.88% |
+| Logistic Regression | 84.17% |
+| SGD Classifier | 82.85% |
+| Linear SVM | 83.91% |
+
+## Best Model
+
+Linear SVM achieved the highest accuracy of 83.91%.
+
+## Visualizations
+
+### Model Comparison
+
+![Model Comparison](images/model_comparison.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+## Author
+
+Shahriar Kabir
