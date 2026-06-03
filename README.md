@@ -52,13 +52,13 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ### Class Distribution
 
-![Binary Category](./images/binary category.png)
+![Binary Category](/images/binary category.png)
 
 ### Dataset Splits
 
 ![Train Test Split](./images/test train split.png)
 
-![Train and Train Dataset Split](./images/test and train dataset split.png)
+![Train and Train Dataset Split](/images/test and train dataset split.png)
 
 ---
 
@@ -66,7 +66,7 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ### Overall Model Comparison
 
-![Comparison of Machine Learning Models](./images/Comparison of Machine Learning Models.png)
+![Comparison of Machine Learning Models](/images/Comparison of Machine Learning Models.png)
 
 ### Confusion Matrix (Best Model — SVM)
 
