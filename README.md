@@ -128,6 +128,28 @@ The following visualizations summarize dataset analysis, model performance, and 
 
 ## 🛠️ How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/ShahriarKS/Cybercrime-Text-Classification.git](https://github.com/ShahriarKS/Cybercrime-Text-Classification.git)
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/ShahriarKS/Cybercrime-Text-Classification.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Cybercrime-Text-Classification
+```
+
+### 3. Install required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open the notebook
+
+Launch Jupyter Notebook or Google Colab and open the notebook located in the `notebook/` directory.
+
+### 5. Run the project
+
+Execute all notebook cells sequentially to reproduce the preprocessing, feature extraction, model training, and evaluation pipeline.
