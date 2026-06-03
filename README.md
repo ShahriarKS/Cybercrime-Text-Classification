@@ -48,85 +48,81 @@ All models were evaluated across an extensive unseen test dataset containing **1
 
 ## 📊 Visualizations
 
-The following visualizations summarize dataset analysis, model performance, and evaluation results of the cybercrime text classification pipeline.
+## 1. Exploratory Data Analysis & Dataset Insights
 
-### 1. Exploratory Data Analysis & Dataset Insights
+### Class Distribution
 
-#### Class Distribution
+![Binary Category](./images/binary category.png)
 
-![Binary Category](images/binary_category.png)
+### Dataset Splits
 
-#### Dataset Splits
+![Train Test Split](./images/test train split.png)
 
-![Train Test Split](images/test_train_split.png)
-
-![Train and Test Dataset Split](images/test_and_train_dataset_split.png)
+![Train and Train Dataset Split](./images/test and train dataset split.png)
 
 ---
 
-### 2. Baseline Machine Learning Performance
+## 2. Baseline Machine Learning Performance
 
-#### Overall Model Comparison
+### Overall Model Comparison
 
-![Comparison of Machine Learning Models](images/Comparison_of_Machine_Learning_Models.png)
+![Comparison of Machine Learning Models](./images/Comparison of Machine Learning Models.png)
 
-#### Confusion Matrix (Best Model — SVM)
+### Confusion Matrix (Best Model — SVM)
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](./images/confusion matrix.png)
 
-#### Individual Model Performance
+### Individual Model Performance
 
-##### Linear SVM
+#### Linear SVM
 
-![Linear SVM Performance](images/linear_svm_performance.png)
+![Linear SVM Performance](./images/linear SVM performance.png)
 
-##### Logistic Regression
+#### Logistic Regression
 
-![Logistic Regression Performance](images/logistic_regression_performance.png)
+![Logistic Regression Performance](./images/Logistic Regression Performance.png)
 
-##### Naive Bayes
+#### Naive Bayes
 
-![Naive Bayes Performance](images/naive_bayes_performance.png)
+![Naive Bayes Performance](./images/naive bayes performance.png)
 
-##### SGD Classifier
+#### SGD Classifier
 
-![SGD Performance](images/sgd_performance.png)
-
----
-
-### 3. Advanced Transformer Deep Learning Diagnostics
-
-#### DistilBERT Training Trends
-
-**Training vs Validation Loss**
-
-![Training vs Validation Loss](images/Training_vs_Validation_Loss.png)
-
-**Validation Accuracy & F1-Score**
-
-![DistilBERT Validation Accuracy & F1-Score](images/DistilBERT_Validation_Accuracy_F1_Score.png)
+![SGD Performance](./images/SGD performance.png)
 
 ---
 
-#### RoBERTa-base Training Trends
+## 3. Advanced Transformer Deep Learning Diagnostics
 
-**Training vs Validation Loss**
+### DistilBERT Engine Trends
 
-![RoBERTa Training vs Validation Loss](images/RoBERTa_Training_vs_Validation_Loss.png)
+#### Training vs Validation Loss
 
-**Validation Accuracy & F1-Score Trend**
+![Training vs Validation Loss](./images/Training vs Validation Loss.png)
 
-![RoBERTa Validation Accuracy & F1-Score](images/RoBERTa_Validation_Accuracy_F1_Score.png)
+#### Validation Accuracy & F1-Score
+
+![DistilBERT Validation Accuracy & F1-Score](./images/DistilBERT Validation Accuracy & F1-Score.png)
+
+---
+
+### RoBERTa-base Engine Trends
+
+#### Training vs Validation Loss
+
+![RoBERTa Training vs Validation Loss](./images/RoBERTa-base Training vs Validation Loss.png)
+
+#### Validation Accuracy & F1-Score Trend
+
+![RoBERTa Validation Accuracy & F1-Score](./images/RoBERTa-base Validation Accuracy & F1-Score.png)
 
 ---
 
-### 4. Ultimate Architecture Comparison
+## 4. Ultimate Architecture Comparison
 
-#### Transformer Models Benchmark Analysis
+### Transformer Models Benchmark Analysis
 
-![Transformer Models Performance Comparison](images/Transformer_Models_Performance_Comparison.png)
-
----
+![Transformer Models Performance Comparison](./images/Transformer Models Performance Comparison.png)
 
 ## 🛠️ How to Run
 
