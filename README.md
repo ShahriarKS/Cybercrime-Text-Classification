@@ -60,7 +60,7 @@ The following visualizations summarize dataset analysis, model performance, and 
 
 ![Train Test Split](./images/test%20train%20split.png)
 
-![Train and Test Dataset Split](./images/test%20and%20train%20dataset%20split%20size.png)
+![Train and Test Dataset Split](./images/test%20and%20train%20dataset%20size.png)
 
 ---
 
