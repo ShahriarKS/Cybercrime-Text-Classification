@@ -29,18 +29,18 @@ This repository contains the following implementation notebooks:
 All models were evaluated across an extensive unseen test dataset containing **17,176 complaints**. To address data imbalance, custom class weights (`[1.5, 1.0]`) were dynamically injected into the Transformer architectures.
 
 | Model Class | Model Architecture | Overall Accuracy | Non-Financial Precision | Financial Fraud Recall | Macro Avg F1-Score | Training Framework |
-| :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Traditional ML** | Naive Bayes | 81.97% | - | - | - | CPU Baseline |
-| **Traditional ML** | SGD Classifier | 81.43% | - | - | - | CPU Baseline |
-| **Traditional ML** | Linear SVM | 81.83% | - | - | - | CPU Baseline |
-| **Traditional ML** | Logistic Regression | 82.35% |- | - |- | CPU Baseline |
-| **Deep Learning** | **DistilBERT** | **84.00%** | 0.77 | 0.85 | 0.83 | 12 Mins (T4 GPU) |
-| **Deep Learning** | **RoBERTa-base** | **84.00%** | **0.79** | **0.86** | **0.83** | 35 Mins (T4 GPU) |
+|:---|:---|:---:|:---:|:---:|:---:|:---|
+| **Traditional ML** | Naive Bayes | 81.97% | 0.76 | 0.85 | 0.81 | CPU Baseline |
+| **Traditional ML** | SGD Classifier | 81.43% | 0.77 | 0.85 | 0.80 | CPU Baseline |
+| **Traditional ML** | Linear SVM | 81.83% | 0.75 | 0.83 | 0.81 | CPU Baseline |
+| **Traditional ML** | Logistic Regression | 82.35% | 0.74 | 0.81 | 0.82 | CPU Baseline |
+| **Deep Learning** | **DistilBERT** | **84.00%** | 0.77 | 0.85 | 0.83 | 6 Mins (T4 GPU) |
+| **Deep Learning** | **RoBERTa-base** | **84.00%** | **0.79** | **0.86** | **0.83** | 22 Mins (T4 GPU) |
 
 ### Key Analytical Insights:
 - **The Transformer Advantage:** While global accuracy remains structurally constrained at 84% due to text overlaps, Deep Learning models vastly outperformed Classical ML in core business metrics.
 - **RoBERTa-base (Best Production Variant):** Delivers a **5% reduction in false alarms** (Precision: 0.79) for minority classes and catches **5% more actual fraud cases** (Recall: 0.86) compared to baseline Logistic Regression.
-- **DistilBERT (Best Efficiency Variant):** Achieves near-identical accuracy to RoBERTa while offering a **3x faster training execution loop** (12 minutes vs 35 minutes).
+- **DistilBERT (Best Efficiency Variant):** Achieves near-identical accuracy to RoBERTa while offering a **3x faster training execution loop** (6 minutes vs 22 minutes).
 
 ---
 
